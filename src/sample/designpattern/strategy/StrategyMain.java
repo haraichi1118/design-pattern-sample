@@ -1,5 +1,17 @@
 package sample.designpattern.strategy;
 
+/**
+ * 【Strategyパターン】
+ * 
+ * 普通にプログラミングしていると、メソッドの中に溶け込んだ形でアルゴリズムを実装してしまうことがよくあります。
+ * if文などで分岐させることでアルゴリズムを変更するような方法です。
+ * Strategyパターンでは、戦略の部分を意識して別クラスとして作成するようにしています。
+ * 戦略x部分を別クラスとして作成しておき、戦略を変更したい場合には、利用する戦略クラスを変更するという方法で対応します。
+ * Strategyパターンを利用することで、メソッドの中に溶け込んだ形のアルゴリズムより柔軟でメンテナンスしやすい設計となります。
+ * 
+ * @author tsuiki_kenji
+ *
+ */
 public class StrategyMain {
 
 	public static void main(String[] args) {
